@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(at 25.589% 6.933%, hsla(159, 90.91%, 78.43%, 1) 0%, hsla(159, 90.91%, 78.43%, 0) 100%),
+                radial-gradient(at 36.175% 99.163%, hsla(69.6, 90.91%, 78.43%, 1) 0%, hsla(69.6, 90.91%, 78.43%, 0) 100%),
+                radial-gradient(at 79.678% 77.53%, hsla(159, 90.91%, 78.43%, 1) 0%, hsla(159, 90.91%, 78.43%, 0) 100%),
+                radial-gradient(at 83.753% 33.045%, hsla(69.6, 90.91%, 78.43%, 1) 0%, hsla(69.6, 90.91%, 78.43%, 0) 100%),
+                radial-gradient(at 3.621% 57.037%, hsla(159, 90.91%, 78.43%, 1) 0%, hsla(159, 90.91%, 78.43%, 0) 100%),
+                radial-gradient(at 9.638% 94.526%, hsla(69.6, 90.91%, 78.43%, 1) 0%, hsla(69.6, 90.91%, 78.43%, 0) 100%),
+                radial-gradient(at 71.273% 55.239%, hsla(159, 90.91%, 78.43%, 1) 0%, hsla(159, 90.91%, 78.43%, 0) 100%),
+                radial-gradient(at 62.34% 73.633%, hsla(69.6, 90.91%, 78.43%, 1) 0%, hsla(69.6, 90.91%, 78.43%, 0) 100%),
+                radial-gradient(at 53.13% 18.281%, hsla(159, 90.91%, 78.43%, 1) 0%, hsla(159, 90.91%, 78.43%, 0) 100%);
+    color: #FFF;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buy-button {
+    background-color: #FF0000;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.main-section {
+    margin-top: 50px;
+}
+
+.main-image {
+    width: 300px;
+    height: auto;
+    border: 5px solid #000;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+}
+
+section {
+    padding: 50px 20px;
+    background-color: #001a66;
+}
+
+footer {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    header, .logo-container {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-image {
+        width: 80%;
+    }
+}
